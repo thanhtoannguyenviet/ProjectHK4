@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ProjectMusicFilm@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.16">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="DBWiki">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="3" parent="1" name="Demo">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="4" parent="1" name="Excellon">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="5" parent="1" name="MusicWebsite">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="6" parent="1" name="ProductOrder">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="7" parent="1" name="ProjectMusicFilm">
+      <ObjectId>11</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>11.43837/53CBFBE5-DD43-4618-BF5E-0BAC7CC475F7@DESKTOP-MGIIGQ2\SQLEXPRESS</Fingerprint>
+    </database>
+    <database id="8" parent="1" name="demo1">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="9" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="13" parent="7" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="14" parent="7" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="15" parent="7" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="16" parent="7" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="17" parent="7" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="18" parent="7" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="19" parent="7" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="20" parent="7" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="21" parent="7" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="22" parent="7" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="23" parent="7" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2020-01-10.02:46:02.450</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="24" parent="7" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="25" parent="7" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="26" parent="23" name="Actor">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.897</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.897</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="23" name="Album">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.900</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.900</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="23" name="Album_CategoryMusic">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.903</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.903</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="23" name="Author">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.907</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.907</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="23" name="CategoryFilm">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.910</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.910</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="23" name="CategorySong">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.910</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.910</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="23" name="Comment">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.913</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.913</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="23" name="Director">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.917</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.917</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="23" name="Film">
+      <ObjectId>1157579162</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.920</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.920</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="23" name="Film_Actor">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.927</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.927</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="23" name="Film_CategoryFilm">
+      <ObjectId>1221579390</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.930</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.930</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="23" name="Image">
+      <ObjectId>1253579504</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.933</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.933</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="23" name="Rating">
+      <ObjectId>1285579618</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.940</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.940</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="23" name="Role">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.943</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.943</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="23" name="Search">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.947</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.947</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="23" name="SeriFilm">
+      <ObjectId>1413580074</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.953</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.953</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="23" name="Seri_CategoryFilm">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.950</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.950</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="23" name="Singer">
+      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.957</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.957</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="23" name="Song">
+      <ObjectId>1477580302</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.960</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.960</ModifiedTimestamp>
+    </table>
+    <table id="45" parent="23" name="Song_CategorySong">
+      <ObjectId>1509580416</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.967</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.967</ModifiedTimestamp>
+    </table>
+    <table id="46" parent="23" name="Song_Singer">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.973</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.973</ModifiedTimestamp>
+    </table>
+    <table id="47" parent="23" name="Upload">
+      <ObjectId>1573580644</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.977</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.977</ModifiedTimestamp>
+    </table>
+    <table id="48" parent="23" name="User">
+      <ObjectId>1605580758</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.980</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.980</ModifiedTimestamp>
+    </table>
+    <column id="49" parent="26" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="26" name="actorName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="51" parent="26" name="ext">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="52" parent="26" name="PK_Actor">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="53" parent="26" name="PK_Actor">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.897</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.897</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Actor</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="54" parent="27" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="27" name="albumName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="56" parent="27" name="listSongId">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="57" parent="27" name="dateReleased">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="58" parent="27" name="index">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="59" parent="27" name="range">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="60" parent="27" name="PK_Album">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="27" name="PK_Album">
+      <ObjectId>949578421</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.900</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.900</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Album</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="62" parent="28" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="28" name="albumId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="64" parent="28" name="catagoryId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="65" parent="28" name="PK_Album_CategoryMusic">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="28" name="PK_Album_CategoryMusic">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.903</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.903</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Album_CategoryMusic</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="67" parent="29" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="29" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="69" parent="29" name="listSong">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="70" parent="29" name="info">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="71" parent="29" name="PK_Author">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="29" name="PK_Author">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.907</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.907</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Author</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="30" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="30" name="categoryFilm">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="75" parent="30" name="range">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="76" parent="30" name="PK_CategoryFilm">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="77" parent="30" name="PK_CategoryFilm">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.910</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.910</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_CategoryFilm</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="78" parent="31" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="31" name="categoryName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="80" parent="31" name="range">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="81" parent="31" name="PK_CategorySong">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="31" name="PK_CategorySong">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.910</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.910</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_CategorySong</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="32" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="32" name="content">
+      <Position>2</Position>
+      <DataType>nvarchar(500 char)|0s</DataType>
+    </column>
+    <column id="85" parent="32" name="commentDate">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="86" parent="32" name="model">
+      <Position>4</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="87" parent="32" name="entryId">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="88" parent="32" name="userNameComment">
+      <Position>6</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <index id="89" parent="32" name="PK_Comment">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="32" name="PK_Comment">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.917</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.917</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Comment</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="91" parent="33" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="33" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="93" parent="33" name="ext">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="94" parent="33" name="PK_Director">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="33" name="PK_Director">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.920</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.920</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Director</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="34" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="34" name="filmName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="98" parent="34" name="country">
+      <Position>3</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="99" parent="34" name="directorId">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="100" parent="34" name="yearReleased">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="101" parent="34" name="uploadSource">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="102" parent="34" name="img">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="103" parent="34" name="active">
+      <Position>8</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="104" parent="34" name="createDate">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="105" parent="34" name="length">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="106" parent="34" name="info">
+      <Position>11</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="107" parent="34" name="actorId">
+      <Position>12</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="108" parent="34" name="index">
+      <Position>13</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="109" parent="34" name="range">
+      <Position>14</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="110" parent="34" name="PK_Film">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="111" parent="34" name="PK_Film">
+      <ObjectId>1173579219</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.923</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.923</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Film</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="112" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="35" name="actorId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="114" parent="35" name="filmId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="115" parent="35" name="PK_Film_Actor">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="35" name="PK_Film_Actor">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.927</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.927</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Film_Actor</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="117" parent="36" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="36" name="filmId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="119" parent="36" name="categoryId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="120" parent="36" name="PK_Film_CategoryFilm">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="121" parent="36" name="PK_Film_CategoryFilm">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.930</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.930</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Film_CategoryFilm</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="37" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="37" name="path">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="124" parent="37" name="size">
+      <Position>3</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="125" parent="37" name="fileExtension">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="126" parent="37" name="model">
+      <Position>5</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="127" parent="37" name="entryId">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="128" parent="37" name="PK_Image">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="129" parent="37" name="PK_Image">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.937</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.937</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Image</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="130" parent="38" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="38" name="model">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="132" parent="38" name="point">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="133" parent="38" name="voteLike">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="134" parent="38" name="voteDislike">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="135" parent="38" name="entryId">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="136" parent="38" name="PK_Rating">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="137" parent="38" name="PK_Rating">
+      <ObjectId>1301579675</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.940</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.940</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Rating</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="138" parent="39" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="39" name="roleName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="140" parent="39" name="scope">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="141" parent="39" name="PK_Role">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="142" parent="39" name="PK_Role">
+      <ObjectId>1333579789</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.943</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.943</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Role</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="143" parent="40" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="144" parent="40" name="keyword">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="145" parent="40" name="data">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="146" parent="40" name="model">
+      <Position>4</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <index id="147" parent="40" name="PK_Search">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="148" parent="40" name="PK_Search">
+      <ObjectId>1365579903</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.947</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.947</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Search</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="149" parent="41" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="41" name="listFilm">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="151" parent="41" name="ext">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="152" parent="41" name="index">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="153" parent="41" name="range">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="154" parent="41" name="PK_SeriFilm">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="155" parent="41" name="PK_SeriFilm">
+      <ObjectId>1429580131</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.957</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.957</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_SeriFilm</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="156" parent="42" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="42" name="categoryId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="158" parent="42" name="seriId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="159" parent="42" name="PK_Seri_CategoryFilm">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="160" parent="42" name="PK_Seri_CategoryFilm">
+      <ObjectId>1397580017</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.950</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Seri_CategoryFilm</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="161" parent="43" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="43" name="singerName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="163" parent="43" name="info">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="164" parent="43" name="img">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="165" parent="43" name="active">
+      <Position>5</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <index id="166" parent="43" name="PK_Singer">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="167" parent="43" name="PK_Singer">
+      <ObjectId>1461580245</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.960</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.960</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Singer</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="168" parent="44" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="169" parent="44" name="songName">
+      <Position>2</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="170" parent="44" name="authorId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="171" parent="44" name="createDate">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="172" parent="44" name="modifiedUser">
+      <Position>5</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="173" parent="44" name="modifiedDate">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="174" parent="44" name="active">
+      <Position>7</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="175" parent="44" name="uploadSource">
+      <Position>8</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="176" parent="44" name="img">
+      <Position>9</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="177" parent="44" name="albumId">
+      <Position>10</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="178" parent="44" name="PK_Song">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="179" parent="44" name="PK_Song">
+      <ObjectId>1493580359</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.963</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.963</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Song</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="180" parent="45" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="181" parent="45" name="songId">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="182" parent="45" name="categoryId">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="183" parent="45" name="PK_Song_CategorySong">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="184" parent="45" name="PK_Song_CategorySong">
+      <ObjectId>1525580473</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.967</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.967</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Song_CategorySong</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="185" parent="46" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="46" name="idSong">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="187" parent="46" name="idSinger">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="188" parent="46" name="PK_Song_Singer">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="189" parent="46" name="PK_Song_Singer">
+      <ObjectId>1557580587</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.973</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.973</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Song_Singer</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="190" parent="47" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="191" parent="47" name="source">
+      <Position>2</Position>
+      <DataType>nvarchar(500 char)|0s</DataType>
+    </column>
+    <column id="192" parent="47" name="model">
+      <Position>3</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="193" parent="47" name="entryId">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="194" parent="47" name="PK_Upload">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="195" parent="47" name="PK_Upload">
+      <ObjectId>1589580701</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.977</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.977</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_Upload</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="196" parent="48" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="48" name="userName">
+      <Position>2</Position>
+      <DataType>nvarchar(255 char)|0s</DataType>
+    </column>
+    <column id="198" parent="48" name="password">
+      <Position>3</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="199" parent="48" name="email">
+      <Position>4</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <column id="200" parent="48" name="ext">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="201" parent="48" name="follow">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="202" parent="48" name="active">
+      <Position>7</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="203" parent="48" name="roleId">
+      <Position>8</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="204" parent="48" name="img">
+      <Position>9</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="205" parent="48" name="displayName">
+      <Position>10</Position>
+      <DataType>nvarchar(250 char)|0s</DataType>
+    </column>
+    <index id="206" parent="48" name="PK_User">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="207" parent="48" name="PK_User">
+      <ObjectId>1621580815</ObjectId>
+      <CreatedTimestamp>2020-01-09.16:42:59.983</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-09.16:42:59.983</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_User</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:sqlserver://localhost:1433;database=ProjectMusicFilm</property>
+    <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="connection.username">toan</property>
+    <property name="connection.password">123456</property>
+    <property name="show_sql">true</property>
+    <property name="hibernate.hibernate.hbm2ddl.auto">create</property>
+    <property name="current_session_context_class">thread</property>
+    <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+    <mapping resource="ActorEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.ActorEntity"/>
+    <mapping resource="AlbumEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.AlbumEntity"/>
+    <mapping resource="AlbumCategoryMusicEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.AlbumCategoryMusicEntity"/>
+    <mapping resource="AuthorEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.AuthorEntity"/>
+    <mapping resource="CategoryFilmEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.CategoryFilmEntity"/>
+    <mapping resource="CategorySongEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.CategorySongEntity"/>
+    <mapping resource="CommentEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.CommentEntity"/>
+    <mapping resource="DirectorEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.DirectorEntity"/>
+    <mapping resource="FilmEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.FilmEntity"/>
+    <mapping resource="FilmActorEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.FilmActorEntity"/>
+    <mapping resource="FilmCategoryFilmEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.FilmCategoryFilmEntity"/>
+    <mapping resource="ImageEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.ImageEntity"/>
+    <mapping resource="RatingEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.RatingEntity"/>
+    <mapping resource="RoleEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.RoleEntity"/>
+    <mapping resource="SearchEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SearchEntity"/>
+    <mapping resource="SeriFilmEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SeriFilmEntity"/>
+    <mapping resource="SeriCategoryFilmEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SeriCategoryFilmEntity"/>
+    <mapping resource="SingerEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SingerEntity"/>
+    <mapping resource="SongEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SongEntity"/>
+    <mapping resource="SongCategorySongEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SongCategorySongEntity"/>
+    <mapping resource="SongSingerEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.SongSingerEntity"/>
+    <mapping resource="UploadEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.UploadEntity"/>
+    <mapping resource="UserEntity.hbm.xml"/>
+    <mapping class="Server.model.DB.UserEntity"/>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
